@@ -28335,7 +28335,12 @@
 	    _react2.default.createElement(
 	      'h2',
 	      null,
-	      'Examples Component'
+	      'Examples Component!'
+	    ),
+	    _react2.default.createElement(
+	      'p',
+	      null,
+	      'Welcome to examples page.'
 	    )
 	  );
 	};
