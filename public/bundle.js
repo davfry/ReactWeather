@@ -28335,7 +28335,7 @@
 	    _react2.default.createElement(
 	      'h2',
 	      null,
-	      'Examples Component!'
+	      'Examples'
 	    ),
 	    _react2.default.createElement(
 	      'p',
