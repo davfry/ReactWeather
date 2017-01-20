@@ -3,7 +3,7 @@ import React from 'react';
 var About = (props) => {
   return (
     <div>
-      <h1 className="text-center">Examples</h1>
+      <h1 className="text-center page-title">About</h1>
       <p>Built with the following tools:</p>
       <ul>
         <li>

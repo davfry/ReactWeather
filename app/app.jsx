@@ -9,6 +9,8 @@ import Examples from './components/Examples';
 require('style!css!foundation-sites/dist/css/foundation.min.css')
 $(document).foundation();
 
+require('style!css!sass!applicationStlyes')
+
 ReactDOM.render(
   <Router history={hashHistory}>
     <Route path="/" component={Main}>
