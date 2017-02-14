@@ -1,4 +1,4 @@
-import React from 'react';
+var React = require('react');
 
 var WeatherForm = React.createClass({
   onFormSubmit: function (e) {
@@ -13,10 +13,12 @@ var WeatherForm = React.createClass({
   },
   render: function () {
     return (
-        <form onSubmit={this.onFormSubmit}>
-          <input type="search" ref="location" placeholder="Search Weather by City"/>
-          <button className="button hollow expanded">Get Weather</button>
-        </form>
+        <div>
+          <form onSubmit={this.onFormSubmit}>
+            <input type="text" ref="location"/>
+            <button className="button expanded hollow">Get Weather</button>
+          </form>
+        </div>
     );
   }
 });
